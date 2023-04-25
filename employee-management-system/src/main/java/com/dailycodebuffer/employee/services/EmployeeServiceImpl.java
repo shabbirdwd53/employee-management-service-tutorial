@@ -26,6 +26,11 @@ public class EmployeeServiceImpl implements EmployeeService{
         employeeRepository.save(employeeEntity);
         return employee;
     }
+    
+    @Override
+    public String getEmployeeByName(String name){
+        // get employee by name ..
+    }
 
     @Override
     public List<Employee> getAllEmployees() {
